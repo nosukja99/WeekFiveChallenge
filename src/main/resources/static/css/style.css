@@ -1,0 +1,54 @@
+.memeImg {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 50px;
+}
+
+body{
+    background: url("http://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg");
+    background-size: cover;
+}
+
+.emptySpace {
+    height: 100px;
+}
+
+.container
+{
+    background-color: white;
+    height: 1000px;
+    opacity: .8;
+}
+.container1
+{
+    border: solid blue;
+    height: 400px;
+}
+
+a:link {
+    color: darkblue;
+}
+a:hover {
+    color: red;
+}
+
+img{
+    height:150px;
+    width: 150px;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+figcaption {
+    display: block;
+    color: black;
+}
