@@ -2,12 +2,19 @@
     position: relative;
     text-align: center;
     color: white;
+    overflow: hidden;
+    width: 150px;
 }
 
 .top-left {
     position: absolute;
-    top: 8px;
-    left: 50px;
+}
+
+.overlay{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 0;
 }
 
 body{

@@ -20,13 +20,13 @@
         <tr th:each="meme : ${memes}">
             <td>
                 <div th:if="${meme.image} !=null">
-                    <div class="memeImg">
+
+                        <p th:text="${meme.header}"></p>
                         <figure>
-                    <img  th:src="${meme.image}"/>
-                    <figcaption><p th:text="${meme.caption}"></p></figcaption>
-                    <div class="top-left"><p th:text="${meme.header}"></p></div>
+                        <img  th:src="${meme.image}"/>
+                        <figcaption><p th:text="${meme.caption}"></p></figcaption>
                         </figure>
-                    </div>
+
                 </div>
             </td>
             <td th:text="${meme.description}">
